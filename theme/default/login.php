@@ -56,12 +56,12 @@
 								</div>
 
 								<div class="group">
-									<input type="text" class="form-control" name="username" placeholder="Username">
+									<input type="text" class="form-control" name="username" minlength="4" maxlength="14" placeholder="Username">
 									<i class="fa fa-user"></i>
 								</div>
 
 								<div class="group">
-									<input type="password" class="form-control" name="password" placeholder="Password">
+									<input type="password" class="form-control" name="password" minlength="4" maxlength="20" placeholder="Password">
 									<i class="fa fa-key"></i>
 								</div>
 
@@ -99,22 +99,22 @@
 								</div>
 
 								<div class="group">
-									<input type="text" class="form-control" name="username" placeholder="Username">
+									<input type="text" class="form-control" name="username" minlength="4" maxlength="14" placeholder="Username">
 									<i class="fa fa-user"></i>
 								</div>
 
 								<div class="group">
-									<input type="text" class="form-control" name="full" placeholder="Your Name">
+									<input type="text" class="form-control" name="full" minlength="4" maxlength="20" placeholder="Your Name">
 									<i class="fa fa-user-plus"></i>
 								</div>
 
 								<div class="group">
-									<input type="text" class="form-control" name="email" placeholder="Email">
+									<input type="email" class="form-control" name="email" minlength="4" maxlength="30" placeholder="Email">
 									<i class="fa fa-envelope"></i>
 								</div>
 
 								<div class="group">
-									<input type="password" class="form-control" name="password" placeholder="Password">
+									<input type="password" class="form-control" name="password" minlength="4" maxlength="20" placeholder="Password">
 									<i class="fa fa-key"></i>
 								</div>
 
@@ -145,7 +145,7 @@
 								</div>
 
 								<div class="group">
-									<input type="text" class="form-control" name="email" placeholder="Enter your email address">
+									<input type="email" class="form-control" name="email" minlength="4" maxlength="30" placeholder="Enter your email address">
 									<i class="fa fa-envelope"></i>
 								</div>
 
@@ -164,7 +164,7 @@
 								</div>
 
 								<div class="group">
-									<input type="text" class="form-control" name="email" placeholder="Enter your email address">
+									<input type="email" class="form-control" name="email" minlength="4" maxlength="30" placeholder="Enter your email address">
 									<i class="fa fa-envelope"></i>
 								</div>
 
